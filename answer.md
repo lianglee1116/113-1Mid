@@ -53,30 +53,30 @@ public void mt_getResult(){
 a. 小題
 
 Ans
-
+```py
 # 創建一個 10x10 的二維陣列，所有元素初始化為 0
 map = [[0 for _ in range(10)] for _ in range(10)]
 
 # 輸出結果以確認
 for row in map:
     print(row)
-
+```
 
 b. 小題
 
 Ans
-
+```py
 # 創建一個大小為 10 的一維陣列，所有元素初始化為 0
 rowMap = [0 for _ in range(10)]
 
 # 輸出結果以確認
 print(rowMap)
-
+```
 
 c. 小題
 
 Ans
-
+```py
 # 創建一個大小為 10 的一維陣列
 rowMap = [0] * 10
 
@@ -85,12 +85,12 @@ rowMap = [0, 7, 13, 28, 44, 62, 74, 75, 87, 90]
 
 # 輸出結果以確認
 print(rowMap)
-
+```
 
 d. 小題
 
 Ans
-
+```py
 # 創建一個 10x10 的二維陣列，所有元素初始化為 0
 map = [[0 for _ in range(10)] for _ in range(10)]
 
@@ -106,13 +106,13 @@ for value in rowMap:
 # 輸出二維陣列
 for row in map:
     print(' '.join(str(elem) for elem in row))
-
+```
 
 
 e. 小題
 
 Ans
-
+```py
 # 創建一個 10x10 的二維陣列，所有元素初始化為 0
 map = [[0 for _ in range(10)] for _ in range(10)]
 
@@ -132,7 +132,8 @@ result_map = [[0 for _ in range(10)] for _ in range(10)]
 directions = [(-1, -1), (-1, 0), (-1, 1),
               (0, -1),          (0, 1),
               (1, -1), (1, 0), (1, 1)]
-
+```
+```py
 # 計算每個格子周圍的炸彈數量
 for row in range(10):
     for col in range(10):
@@ -153,3 +154,4 @@ for value in rowMap:
 # 輸出結果陣列
 for row in result_map:
     print(' '.join(str(elem) if elem != 0 else ' ' for elem in row))
+```
